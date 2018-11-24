@@ -35,26 +35,37 @@ module.exports = function (ctx) {
     },
     devServer: {
       // https: true,
-      // port: 8080,
+      port: 8082,
       open: true // opens browser window automatically
     },
     // framework: 'all' --- includes everything; for dev only!
     framework: {
       components: [
-        'QLayout',
-        'QLayoutHeader',
-        'QLayoutDrawer',
-        'QPageContainer',
-        'QPage',
-        'QToolbar',
-        'QToolbarTitle',
         'QBtn',
+        'QChip',
         'QIcon',
-        'QList',
-        'QListHeader',
         'QItem',
         'QItemMain',
-        'QItemSide'
+        'QItemSeparator',
+        'QItemSide',
+        'QItemTile',
+        'QLayout',
+        'QLayoutDrawer',
+        'QLayoutFooter',
+        'QLayoutHeader',
+        'QList',
+        'QListHeader',
+        'QPageContainer',
+        'QPopover',
+        'QPage',
+        'QTab',
+        'QTabs',
+        'QTabPane',
+        'QTooltip',
+        'QRouteTab',
+        'QScrollArea',
+        'QToolbar',
+        'QToolbarTitle'
       ],
       directives: [
         'Ripple'
